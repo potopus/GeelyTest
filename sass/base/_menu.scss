@@ -1,0 +1,24 @@
+.menu {
+    .wrapper {
+        justify-content: space-between;
+        padding-top: 0.9%;
+        padding-bottom: 0.7%;
+        font-size: 0.8rem;
+    }
+
+    .brand,
+    .main-menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 0%;
+    }
+
+    .brand {
+
+        width: 29.2%;
+    }
+
+    .main-menu {
+        width: 47%;
+    }
+}

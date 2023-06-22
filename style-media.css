@@ -1,0 +1,712 @@
+@media screen and (max-width: 1700px) {
+    .slider {
+        min-width: 0px;
+        width: 120%;
+    }
+
+    .slider .slick-list img {
+        width: 86%;
+    }
+
+    .form .form__submit {
+        margin-top: 4.2vw;
+    }
+
+    #modal-form .form__field {
+        margin-top: 4vh;
+    }
+
+    #modal-form {
+        height: calc(183px + (836 - 183)*((100vw - 320px)/(1700 - 320)));
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .wrapper {
+        margin: 0 6%;
+    }
+
+    .form-booking .true-installment {
+        width: 33%;
+        height: 0px;
+        min-height: 80px;
+        background-size: contain;
+    }
+
+    .slider .slick-list img {
+        width: 86%;
+    }
+
+    .cars .slider-backgr {
+        height: calc(423px + (490 - 423) * (100vw - 1080px)/(1280 - 1080));
+    }
+
+    .slider-vert .slider-vert__item img {
+        width: 90%;
+    }
+
+    .slider-vert .slick-prev.slick-arrow,
+    .slider-vert .slick-arrow.slick-next {
+        margin-left: 34%;
+    }
+
+    .slider-vert .slick-arrow.slick-next {
+        margin-top: 10%;
+    }
+
+    .slider-vert {
+        padding-top: 17%;
+    }
+
+    .cars .six-year {
+        background-size: contain;
+    }
+
+    .cars .six-year .six {
+        font-size: 400%;
+    }
+
+    .cars .six-year .year {
+        padding-right: 12%;
+    }
+
+    .cars .six-year .year,
+    .cars .six-year .six {
+        padding-bottom: 5%;
+    }
+
+    .cars .description .benefit {
+        width: 100%;
+    }
+
+    .cars .description .benefit-options>div {
+        width: 100%;
+    }
+
+    .cars .description .benefit-credit img {
+        padding-left: 0%;
+    }
+
+    .cars .description .benefit-tade-in div,
+    .cars .description .benefit-credit div,
+    .cars .description .benefit-equip div {
+        width: 43%;
+    }
+
+    .cars .description .benefit-equip div {
+        width: 60%;
+    }
+
+    .cars h2 {
+        font-size: calc(47px - (49 - 47) * ((100vw - 1080px)/(1280 - 1080)));
+    }
+
+    .header .geelyshimk {
+        margin-left: 8%;
+        width: 22.7%;
+    }
+
+    .menu .main-menu {
+        width: 52%;
+    }
+
+    .main-content h1 {
+        font-size: calc(39px + (45 - 39) * ((100vw - 1080px)/(1280 - 1080)));
+        margin-top: 5%;
+    }
+
+    .header .logo .geely-logo {
+        margin-top: 2%;
+    }
+
+    .main-content .offers {
+        font-size: calc(30px + (35 - 30) * ((100vw - 1080px)/(1280 - 1080)));
+        width: 100%;
+    }
+
+    .main-box__left-arrow,
+    .main-box__right-arrow {
+        top: 30%;
+    }
+}
+
+@media screen and (max-width: 1225px) {
+
+    .cars .description .benefit-tade-in div,
+    .cars .description .benefit-credit div {
+        width: 38%;
+        flex-basis: 174px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+
+    .slider {
+        min-width: 0px;
+        width: 125%;
+    }
+
+    .slider .slider__item img {
+        width: 44vw;
+    }
+
+    .slider-vert .slick-prev.slick-arrow {
+        margin-top: 10%;
+    }
+
+    .wrapper .header {
+        flex-wrap: wrap;
+    }
+
+    .cars .six-year .blue-garaty {
+        padding-bottom: 0%;
+    }
+
+    .cars .six-year .year,
+    .cars .six-year .six {
+        padding-bottom: 20%;
+    }
+
+    .cars .six-year .six {
+        padding-bottom: 13%;
+    }
+
+    .cars .six-year .six {
+        font-size: calc(47px + (64 - 47) * ((100vw - 768px)/(1080 - 768)));
+    }
+
+    .cars .six-year {
+        margin-top: 3%;
+        position: relative;
+    }
+
+    .cars .six-year .year,
+    .cars .six-year .six {
+        position: absolute;
+        top: 1%;
+    }
+
+    .cars .six-year .year {
+        padding-bottom: 7%;
+        font-size: calc(11px + (16 - 11) * ((100vw - 768px)/(1080 - 768)));
+        left: 39%;
+        top: 30%;
+    }
+
+    .cars h2 {
+        font-size: calc(34px + (47 - 34) * ((100vw - 768px)/(1079 - 768)));
+    }
+
+    .slider {
+        padding-top: 0%;
+    }
+
+    .wrapper .header {
+        row-gap: 15px;
+        justify-content: space-around;
+    }
+
+    .wrapper .header>* {
+        width: 32%;
+    }
+
+    .header .order {
+        width: 25%;
+        padding: 0.5% 0.4% 0.4% 0;
+        height: auto;
+        margin-right: 4%;
+    }
+
+    .header .geelyshimk {
+        margin-left: 21%;
+    }
+
+    .header .phone {
+        margin-left: 11%;
+    }
+
+    .menu .main-menu {
+        gap: 10px;
+        flex-basis: 452px;
+    }
+
+    .menu .brand {
+        flex-basis: 261px;
+        margin-right: 6%;
+    }
+
+    .menu .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .main-content h1 {
+        font-size: calc(25px + (39 - 25) * ((100vw - 768px)/(1080 - 768)));
+    }
+
+    .main-content .main-bottom .booking {
+        font-size: calc(13px + (20 - 13) * ((100vw - 768px)/(1080 - 768)));
+    }
+
+    .form-booking .field-phone,
+    .form-booking .get-offer .get-offer-btn {
+        font-size: calc(11px + (13 - 11) * ((100vw - 768px)/(1081 - 768)));
+    }
+
+    .form-booking .get-offer .contract {
+        font-size: calc(8px + (11 - 8) * ((100vw - 768px)/(1080 - 768)));
+        white-space: nowrap;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .form-booking .true-installment .text {
+        font-size: calc(14px + (20 - 14) * ((100vw - 768px)/(1080 - 768)));
+    }
+
+    .form-booking .true-installment .percent {
+        font-size: calc(33px + (50 - 33) * ((100vw - 768px)/(1080 - 768)));
+    }
+
+    .form-booking .true-installment {
+        margin-top: 0%;
+        margin-left: 0.1%;
+        /* flex-basis: 314px; */
+    }
+
+    .cars .description .benefit-equip div {
+        width: 64%;
+    }
+
+    .form-booking .field-phone {
+        height: 52%;
+        width: 22%;
+        margin-bottom: 0%;
+    }
+
+    .form-booking .get-offer .get-offer-btn {
+        height: 60%;
+        width: 100%;
+        margin-left: 0%;
+
+    }
+
+    .form-booking .get-offer {
+        height: 100%;
+        flex-grow: 0;
+        flex-shrink: 1;
+        width: 24%;
+    }
+
+    .form-booking {
+        height: 59%;
+        box-sizing: border-box;
+    }
+
+    .form-booking .get-offer .get-offer-btn .get-offer__arrow {
+        padding-bottom: 1%;
+        font-size: 120%;
+    }
+}
+
+
+@media screen and (max-width: 862px) {
+    .menu .wrapper {
+        justify-content: center;
+        row-gap: 10px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .header .wrapper .header>* {
+        width: 51%;
+        margin: 0;
+    }
+
+    .header .wrapper .geelyshimk {
+        width: 44%;
+        justify-content: center;
+    }
+
+    .header .wrapper .order {
+        width: 25%;
+    }
+
+    .wrapper .header {
+
+        justify-content: center;
+    }
+
+    .header .wrapper .phone {
+        margin-left: 0%;
+        width: 30%;
+        flex-basis: 206px;
+    }
+
+    .wrapper .header .logo {
+        flex-basis: 383px;
+    }
+
+    .header .geelyshimk .flag {
+        padding-top: 1%;
+    }
+
+    .slider-vert {
+        padding-top: 17%;
+    }
+
+    .main-box__left-arrow,
+    .main-box__right-arrow {
+        top: 21%;
+    }
+
+    .menu .brand {
+
+        margin-right: 0%;
+    }
+
+    .menu .main-menu {
+        gap: 10px;
+        flex-basis: 415px;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        justify-content: space-evenly;
+    }
+
+    .main-content h1 {
+        font-size: calc(17px + (25 - 17) * ((100vw - 320px)/(768 - 320)));
+        margin-top: 3%;
+    }
+
+    .main-content {
+        padding-bottom: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .main {
+        background-position: 0px 0px;
+    }
+
+    section .main-bottom .form-booking {
+        flex-wrap: wrap;
+    }
+
+    .main-bottom .form-booking>* {
+        width: 24%;
+    }
+
+    .true-installment {
+        width: 31%;
+    }
+
+    .form-booking .true-installment {
+        width: 209px;
+        margin-left: 10px;
+
+    }
+
+    .form-booking .field-phone {
+        height: 51%;
+    }
+
+    .form-booking .get-offer,
+    .form-booking .field-phone {
+        width: 162px;
+        margin-right: 10px;
+    }
+
+
+    .main-content .offers {
+        font-size: calc(30px + (35 - 30) * ((100vw - 1080px)/(1280 - 1080)));
+    }
+
+    .slider {
+        width: 110%;
+    }
+
+    .cars .complectation {
+        font-size: calc(10px + (15 - 10) * ((100vw - 320px)/(768 - 320)));
+    }
+
+    .cars .six-year .year {
+        font-size: calc(10px + (13 - 10) * ((100vw - 320px)/(768 - 320)));
+        top: 19%;
+    }
+
+    .cars .six-year .six {
+        font-size: calc(42px + (51 - 42) * ((100vw - 320px)/(767 - 320)));
+        top: -3%;
+    }
+
+    .cars .six-year {
+        width: 43%;
+    }
+
+    .cars .slider-backgr {
+        height: calc(423px + (490 - 423) * (100vw - 320px)/(768 - 320));
+        width: 100%;
+        left: -45%;
+        top: 6%;
+    }
+
+    .cars .garanty {
+        padding-top: 14%;
+        width: 88%;
+    }
+
+    .slider-box__wrapper {
+        min-width: 0;
+        width: 58%;
+    }
+
+    .slider-vert .slider-vert__item img {
+        width: 9.7vw;
+    }
+
+    .cars .description {
+        padding-top: 0%;
+    }
+}
+
+@media screen and (max-width: 668px) {
+
+    .cars .six-year {
+        width: 48%;
+    }
+
+    section.main {
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        z-index: 0;
+
+    }
+
+    .main:before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+
+    .main-content .main-bottom .booking {
+        margin: 0 auto;
+        width: 82%;
+    }
+
+    section .main-bottom .form-booking {
+        gap: 10px;
+        width: 82%;
+        margin: 0 auto;
+    }
+
+    .form-booking .true-installment {
+        min-height: 47px;
+        width: 37%;
+        margin-left: 0px;
+        margin-top: -4%;
+    }
+
+    .form-booking .field-phone {
+        box-sizing: border-box;
+    }
+
+    .main-content {
+        padding-bottom: 4%;
+    }
+
+    .main-content .main-bottom {
+        flex-grow: 1;
+        padding-top: 4%;
+    }
+
+    .cars .complectation {
+        padding-top: 5%;
+    }
+
+    .cars .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .slider-box__wrapper {
+        min-width: 0;
+        width: 304px;
+
+    }
+
+    .cars .description {
+        width: 44%;
+    }
+
+    .slider {
+        width: 115%;
+    }
+}
+
+@media screen and (max-width: 616px) {
+    .menu .brand {
+        flex-basis: 300px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-right: 0;
+    }
+
+    .header .wrapper .geelyshimk {
+        width: 44%;
+        flex-basis: 265px;
+        justify-content: center;
+    }
+
+    .header .wrapper .order {
+        width: 25%;
+        flex-basis: 151px;
+    }
+
+    section .main-bottom .form-booking {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .slider-box__wrapper {
+        width: 90%;
+    }
+
+    .cars .slider-backgr {
+        width: 145%;
+        top: 11px;
+        left: auto;
+        right: calc(23px + (3 - 23) * (616px - 320px)/(616 - 320));
+    }
+
+    .slider .slider__item img {
+        width: 62vw;
+    }
+
+    .slider {
+        width: 110%;
+    }
+
+    .slider-vert .slider-vert__item img {
+        width: 15vw;
+    }
+
+    .slider-vert {
+        padding-top: 2%;
+    }
+
+    .cars .garanty {
+        padding-top: 9%;
+        padding-bottom: 10%;
+    }
+
+    .slider {
+        width: 100%;
+        padding-left: 21%;
+    }
+
+    .cars .six-year .year {
+        font-size: 10px;
+        top: 28%;
+    }
+
+    .cars .six-year .six {
+        font-size: 42px;
+        top: -3px;
+    }
+
+    .cars .complectation {
+        padding-top: 0%;
+    }
+
+    .cars .six-year {
+        position: relative;
+        background-size: contain;
+        height: var(--garanty-size);
+        width: calc(2 * var(--garanty-size));
+        margin: 0% 0% 3% 6%;
+        padding: 0;
+    }
+
+    .cars .description {
+        width: 103%;
+        padding-top: 10%;
+    }
+
+    .cars h2 {
+        font-size: calc(34px + (51 - 34) * ((100vw - 320px)/(768 - 322)));
+        text-align: center;
+    }
+
+    .header .logo .orbis-kaz {
+        width: 153px;
+        margin-left: 0%;
+    }
+
+    .wrapper .header .logo {
+        flex-basis: auto;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .header .logo .geely-logo {
+        width: 171px;
+    }
+
+    .header .logo .separator {
+        margin: 0 4%;
+    }
+
+    .cars .description .benefit {
+        width: 301px;
+        align-self: center;
+    }
+
+    .cars .description .benefit-options {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 402px) {
+
+    .form-booking .get-offer,
+    .form-booking .field-phone {
+        width: 162px;
+        margin-right: 10px;
+    }
+
+    .form-booking .true-installment .percent {
+        padding-top: 5%;
+        margin-right: 10%;
+        font-size: calc(33px + (50 - 33) * ((100vw - 768px)/(1080 - 768)));
+    }
+
+    .form-booking .get-offer,
+    .form-booking .field-phone {
+        width: 50%;
+    }
+
+    .header .logo .separator {
+        display: none;
+    }
+
+    .wrapper .header .logo {
+        width: 91%;
+        gap: 10px;
+    }
+
+
+}

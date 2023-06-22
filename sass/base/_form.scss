@@ -1,0 +1,77 @@
+#modal-form {
+    display: none;
+    width: 100%;
+    max-width: 70vw;
+    height: 60vh;
+    padding: 0 0 40px 0;
+    text-align: justify;
+    border-radius: 3px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+    .f-button {
+        top: -13%;
+        background: grey;
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .f-button svg {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .form__label,
+    .form__field {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 3vw;
+    }
+
+    .form__label {
+        padding-top: 4%;
+    }
+
+    .form__field {
+        margin-top: 2%;
+        border: 1px solid #676767;
+    }
+
+
+}
+
+.form .connect,
+.form .tel,
+.form .email,
+.form .form__submit {
+    font-size: 4.5vw;
+    margin: 0 auto;
+    /* display: block; */
+    text-align: center;
+    padding-top: 3%;
+}
+
+.form .tel {
+    font-weight: 700;
+
+}
+
+.form .form__submit {
+    font-size: 4vw;
+    padding: 3vw;
+    display: block;
+    margin-top: 1.2vw;
+    background: var(--color-btn);
+    color: #ffffff;
+
+    &:active {
+        background: var(--installment-color);
+    }
+}
+
+
+.form .tel,
+.form .email {
+    font-weight: 400;
+    padding-top: 1%;
+}
