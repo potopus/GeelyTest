@@ -53,7 +53,7 @@
 
         &:hover {
             background: url(./img/6year-hover.png) no-repeat;
-            ;
+            background-size: contain;
         }
 
         .six {
@@ -82,7 +82,7 @@
         cursor: pointer;
 
         &:hover {
-            color: #49b6d0;
+            color: var(--color-link);
         }
 
         .compect-arrow {
@@ -112,6 +112,7 @@
 
             &:hover {
                 background: url(./img/gift-hover.png) no-repeat;
+                background-size: contain;
             }
 
             .benefit-dicount {

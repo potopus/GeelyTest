@@ -5,6 +5,7 @@
   --color-btn:#002d96;
   --installment-color: #ccd5ea;
   --garanty-size:42px;
+  --color-link: #648ff3;
 }
 
 img {
@@ -128,6 +129,11 @@ a {
   font-size: 0.9rem;
   padding: 0.5% 0.4% 0% 0;
   margin-top: 0.1%;
+  cursor: pointer;
+}
+.header .order:hover {
+  background-color: var(--color-btn);
+  color: #ffffff;
 }
 
 .menu .wrapper {
@@ -141,6 +147,11 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 0%;
+  cursor: pointer;
+}
+.menu .brand > :not(.brand):hover,
+.menu .main-menu > :not(.main-menu):hover {
+  color: var(--color-link);
 }
 .menu .brand {
   width: 29.2%;
@@ -223,6 +234,10 @@ a {
   align-items: center;
   padding-left: 5%;
   padding-right: 3.6%;
+  cursor: pointer;
+}
+.form-booking .get-offer .get-offer-btn:hover {
+  background-color: #000000;
 }
 .form-booking .get-offer .get-offer-btn .get-offer__arrow {
   padding-bottom: 3%;
@@ -332,6 +347,7 @@ a {
 }
 .cars .six-year:hover {
   background: url(./img/6year-hover.png) no-repeat;
+  background-size: contain;
 }
 .cars .six-year .six {
   font-weight: 700;
@@ -353,7 +369,7 @@ a {
   cursor: pointer;
 }
 .cars .complectation:hover {
-  color: #49b6d0;
+  color: var(--color-link);
 }
 .cars .complectation .compect-arrow {
   font-size: 200%;
@@ -380,6 +396,7 @@ a {
 }
 .cars .description .benefit:hover {
   background: url(./img/gift-hover.png) no-repeat;
+  background-size: contain;
 }
 .cars .description .benefit .benefit-dicount {
   font-weight: 600;
@@ -516,6 +533,9 @@ a {
   margin-top: -1%;
   gap: 3.7%;
 }
+.slider .slick-dots > li button {
+  cursor: pointer;
+}
 .slider #slick-slide-control00 {
   background-color: #ff0000;
 }
@@ -605,16 +625,13 @@ a {
   border: 0;
   margin: 0 auto;
   margin-left: 35%;
+  cursor: pointer;
 }
 
 .slider-vert .slider-vert__item img {
   width: auto;
 }
 
-/* Активная точка */
-/* Слайдер */
-/* Слайдер запущен */
-/* Слайдер с точками */
 /* Ограничивающая оболочка */
 .slick-list {
   overflow: hidden;
@@ -625,18 +642,6 @@ a {
   display: flex;
 }
 
-/* Слайд */
-/* Слайд активный (показывается) */
-/* Слайд основной */
-/* Слайд по центру */
-/* Клонированный слайд */
-/* Стрелка */
-/* Стрелка влево */
-/* Стрелка вправо */
-/* Стрелка не активная */
-/* Точки (булиты) */
-/* Активная точка */
-/* Элемент точки */
 #modal-form {
   display: none;
   width: 100%;
@@ -694,6 +699,7 @@ a {
   margin-top: 1.2vw;
   background: var(--color-btn);
   color: #ffffff;
+  cursor: pointer;
 }
 .form .form__submit:active {
   background: var(--installment-color);
@@ -724,7 +730,7 @@ a {
   height: 13px;
   flex-shrink: 0;
   flex-grow: 0;
-  border: 1px solid black;
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 0.25em;
   margin-right: 0.5em;
   background-repeat: no-repeat;
@@ -749,7 +755,6 @@ a {
   border-color: #b3d7ff;
 }
 
-/* стили для чекбокса, находящегося в фокусе */
 /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
 .agree:focus:not(:checked) + label::before {
   border-color: #ffffff;
