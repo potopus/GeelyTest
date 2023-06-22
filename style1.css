@@ -1,0 +1,29 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.pol{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
+.sad{
+    width: 100%;
+    height: 200px;
+    background-image: url(./img/banner.png);
+    background-color:green;
+}
+.wer{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+}
+
+.dop{
+    width: 100%;
+    height: 200px;
+    background: red;
+    border: 1px solid black;
+    box-sizing: border-box;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "geelytest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "sass --watch sass/index.scss style.css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potopus/geelyTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/potopus/geelyTest/issues"
+  },
+  "homepage": "https://github.com/potopus/geelyTest#readme",
+  "dependencies": {
+    "sass": "^1.63.4"
+  }
+}
