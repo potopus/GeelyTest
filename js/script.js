@@ -6,8 +6,7 @@ $(document).ready(function () {
         initialSlide: 4,
     });
     $(".slider-vert").slick({
-        // variableWidth:true,
-        // variableWidth: true,
+  
         vertical: true,
         verticalSwiping: true,
         slidesToShow: 3,
