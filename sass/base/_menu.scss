@@ -11,10 +11,15 @@
         display: flex;
         justify-content: space-between;
         padding: 0%;
+        cursor: pointer;
+        
+    }
+    .brand > :not(.brand):hover, 
+    .main-menu > :not(.main-menu):hover{
+        color: var(--color-link);
     }
 
     .brand {
-
         width: 29.2%;
     }
 

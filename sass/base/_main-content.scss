@@ -84,6 +84,10 @@
             align-items: center;
             padding-left: 5%;
             padding-right: 3.6%;
+            cursor: pointer;
+            &:hover{
+                background-color: #000000;
+            }
 
             .get-offer__arrow {
                 padding-bottom: 3%;
