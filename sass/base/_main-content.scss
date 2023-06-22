@@ -1,0 +1,168 @@
+.main {
+    .wrapper {
+        flex-grow: 1;
+    }
+}
+
+
+.main-content {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 5.9%;
+    padding-left: 0.7%;
+    padding-right: 2%;
+
+    h1 {
+        margin: 0.67em 0;
+        text-align: center;
+        margin-top: 8.4%;
+        margin-bottom: 2.2%;
+        font-size: 2.8rem;
+    }
+
+    .offers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        padding-left: 0;
+        width: fit-content;
+        font-size: 2.2rem;
+
+        .installment {
+            padding: 0% 0% 0% 2%;
+        }
+
+        .credit2 {
+            padding: 0% 0% 0% 2%;
+        }
+
+        .credit5 {
+            padding: 0% 0% 0% 2%;
+        }
+    }
+
+    .main-bottom {
+        .booking {
+            font-size: 1.25rem;
+            font-weight: 700;
+            padding-bottom: 1.6%;
+        }
+    }
+}
+
+.form-booking {
+    justify-content: space-between;
+    height: 67%;
+
+    .field-phone {
+        width: 27.9%;
+        height: 65%;
+        margin-bottom: 4.6%;
+        padding-left: 1.4%;
+    }
+
+    .get-offer {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        margin-left: 0%;
+        justify-content: space-between;
+
+        .get-offer-btn {
+            width: 74%;
+            height: 72%;
+            color: white;
+            margin-left: 3%;
+            background-color: var(--color-btn);
+            border-width: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 5%;
+            padding-right: 3.6%;
+            cursor: pointer;
+            &:hover{
+                background-color: #000000;
+            }
+
+            .get-offer__arrow {
+                padding-bottom: 3%;
+                font-size: 180%;
+            }
+        }
+
+        .contract {
+            font-size: 69%;
+            padding-left: 4%;
+
+            input[type=checkbox] {
+                margin-left: 2.7%;
+                background-color: transparent;
+            }
+
+            .agree {
+                margin-left: 0.6%;
+            }
+        }
+
+        // .agree{
+        //     background: transparent;
+        // }
+    }
+
+    .true-installment {
+        background: url(./img/True-inst.png) no-repeat;
+        background-size: cover;
+        margin-right: 0.1%;
+        margin-top: -1.2%;
+        width: 30%;
+        height: 92%;
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        color: black;
+        font-weight: 700;
+
+        .text {
+            width: 30%;
+            padding-left: 9.6%;
+            padding-top: 3%;
+            font-size: 1.25rem;
+
+            span {
+                font-size: 130%;
+            }
+        }
+
+        .percent {
+            padding-top: 2%;
+            font-size: 312%;
+            margin-right: 4%;
+
+            .less {
+                font-size: 69%;
+            }
+        }
+    }
+}
+
+.main-box__left-arrow,
+.main-box__right-arrow{
+    position: absolute;
+    align-self: center;
+    width: 31px;
+    height: 61px;
+    top:44%;
+    
+}
+
+.main-box__left-arrow{
+    left:3%;
+}
+.main-box__right-arrow{
+    right:4%;
+}

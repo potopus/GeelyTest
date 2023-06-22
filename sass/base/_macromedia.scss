@@ -1,0 +1,206 @@
+@media screen and (max-width: 1920px) {
+    .wrapper {
+        display: flex;
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1921px) {
+
+    .wrapper {
+        display: flex;
+        max-width: 2560px;
+        margin: 0 15%;
+    }
+
+    .wrapper .header {
+        gap: 20px;
+
+        .geelyshimk,
+        .order,
+        .phone {
+            width: 20%;
+        }
+
+        .geelyshimk .adress,
+        .order,
+        .phone a {
+            font-size: 1.4rem;
+        }
+
+        .geelyshimk .flag {
+            width: 9%;
+        }
+
+        .phone {
+            margin: 0 0 0 1%;
+            align-self: center;
+        }
+
+        .order {
+            padding: 0px;
+            margin: 0px;
+            height: 70%;
+            align-self: center;
+        }
+
+        .geelyshimk {
+            margin-left: 0%;
+        }
+    }
+
+    .wrapper .header .logo {
+        flex-basis: 49%;
+        flex-shrink: 1;
+        flex-grow: 0;
+    }
+
+    .header .logo .separator {
+        height: 100%;
+    }
+
+    .menu .wrapper {
+        font-size: 1.4rem;
+        gap: 3%;
+
+        & .main-menu {
+            flex-grow: 1;
+        }
+    }
+
+    .menu .wrapper> :not(.wrapper) {
+        width: 40%;
+    }
+
+    .menu {
+        .brand {
+            font-size: 1.6rem;
+        }
+    }
+
+    .main-content .offers {
+        font-size: calc(35px + (80 - 35) * ((100vw - 1920px)/(3550 - 1920)));
+    }
+
+    .main-content h1 {
+        font-size: calc(45px + (100 - 45) * ((100vw - 1920px)/(3550 - 1920)));
+    }
+
+    .main-content .main-bottom .booking {
+        font-size: calc(1rem + (23 - 1) * ((100vw - 1920px)/(3550 - 1920)));
+    }
+
+    section .main-bottom .form-booking {
+        font-size: calc(1rem + (59 - 1) * ((100vw - 1920px)/(3550 - 1920)));
+    }
+
+    .form-booking .get-offer .get-offer-btn {
+        font-size: 69%;
+    }
+
+    .form-booking .field-phone {
+        font-size: 80%;
+    }
+
+    .form-booking .get-offer .contract {
+        font-size: 69%;
+        padding-left: 4%;
+    }
+
+    .agree+label {
+        font-size: 83%;
+    }
+
+    .agree+label::before {
+        width: 2.1rem;
+        height: 2.1rem;
+    }
+
+    .form-booking .true-installment .percent {
+        margin-right: calc(88px + -88 * (100vw - 1920px) / 1630);
+        padding-top: 4%;
+        font-size: 246%;
+    }
+
+    .form-booking .true-installment .text {
+        font-size: 107%;
+        padding-left: 6%;
+    }
+
+    .cars .slider-backgr {
+        background-size: contain;
+        height: calc(573px + (922 - 573) * (100vw - 1919px) / (3000 - 1920));
+    }
+
+    .slider {
+        // min-width: 0px;
+        width: 165%;
+        // padding-top: 58.6%;
+        padding-left: 0%;
+        margin-left: 13%;
+        padding-top: calc(1px + (163 - 1) * ((100vw - 1920px)/(3550 - 1920)));
+    }
+
+    .slider .slick-list img {
+        width: 28vw;
+    }
+
+    .cars .complectation {
+        width: 28%;
+        font-size: calc(1rem + (14 - 1) * ((100vw - 1920px)/(3550 - 1920)));
+    }
+
+    .cars .garanty {
+        width: 88%;
+        padding-left: 10%;
+
+    }
+
+    .cars .six-year {
+        background-size: contain;
+        font-size: calc(0.7rem + (5.7 - 0.7) * ((100vw - 1920px)/(3550 - 1920)));
+        padding-bottom: 2%;
+        height: auto;
+        width: 50%;
+        gap: 9%;
+        margin-left: 0%;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+
+    .cars .six-year .six {
+        font-weight: 700;
+        font-size: 889%;
+        padding-left: 12%;
+        margin-top: -8%;
+    }
+
+    .cars .six-year .year {
+        font-size: 173%;
+        padding-right: 0%;
+    }
+
+    .slider-vert .slider-vert__item img {
+        width: 7vw;
+    }
+
+    .slider-vert {
+        min-width: 0px;
+        padding-top: 18%;
+        width: 532%;
+    }
+
+    .cars .description {
+        font-size: calc(1rem + (22 - 1) * ((100vw - 1920px)/(3550 - 1920)));
+    }
+
+    .form-booking .true-installment {
+        font-size: calc(1rem + 34 * (100vw - 1920px) / 1630);
+        background-size: contain;
+    }
+}
+
