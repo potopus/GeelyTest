@@ -8,10 +8,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
   <link rel="stylesheet" href="style.css">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
   <link rel="stylesheet" href="style-media.css">
   <!-- <link rel="stylesheet" href="style1.css"> -->
   <title>Document</title>
@@ -25,13 +25,13 @@
     <div class="wrapper">
       <header class="header">
         <div class="logo">
-          <img class="geely-logo" src="./img/Horizontal LOGO.png">
+          <img class="geely-logo" src="./img/Horizontal_LOGO.png" alt="Geely-LOGO">
           <div class="separator"></div>
-          <img class="orbis-kaz" src="./img/orbis.png">
+          <img class="orbis-kaz" src="./img/orbis.png" alt="Orbis diler Logo">
         </div>
         <div class="geelyshimk">
           <div class="flag">
-            <object data="./img/maps-and-flags.svg" type="image/svg+xml" alt="SVG Image">
+            <object data="./img/maps-and-flags.svg"  type="image/svg+xml">
             </object>
           </div>
           <div class="adress">
@@ -40,7 +40,7 @@
           </div>
         </div>
         <div class="phone">
-          <object data="./img/phone.svg" type="image/svg+xml" alt="SVG Image"></object>
+          <object data="./img/phone.svg" type="image/svg+xml" ></object>
           <a href="tel:+77780037686">+ 7 (778) 003-76-86</a>
         </div>
         <button class="order" data-fancybox data-src="#modal-form" onclick="location.href='#modal-form';">Заказать
@@ -67,7 +67,7 @@
   </section>
   <section class="main">
     <div class="main-box__left-arrow">
-      <object data="./img/left-arrow main.svg" class="main__left-arrow" type="image/svg+xml" alt="SVG Image"></object>
+      <object data="./img/left-arrow_main.svg" class="main__left-arrow" type="image/svg+xml" ></object>
     </div>
     <div class="wrapper">
       <div class="main-content">
@@ -100,7 +100,7 @@
       </div>
     </div>
     <div class="main-box__right-arrow">
-      <object data="./img/right-arrow main.svg" class="main__right-arrow" type="image/svg+xml" alt="SVG Image"></object>
+      <object data="./img/right-arrow_main.svg" class="main__right-arrow" type="image/svg+xml" alt="SVG Image"></object>
     </div>
   </section>
   <section class="cars">
@@ -132,10 +132,10 @@
           <div class="garanty">
             <div class="six-year">
               <span class="six">6</span>
-              <span class="year">
+              <div class="year">
                 <div>лет</div>
                 <div class="blue-garaty">гарантии</div>
-              </span>
+              </div>
 
             </div>
             <div class="complectation">ПОДОБРАТЬ КОМПЛЕКТАЦИЮ <span class="compect-arrow">&rarr;</span></div>
@@ -212,9 +212,9 @@
     <a href="mailto:Paveldelo@yandex.ru">
       <div class="email">Paveldelo@yandex.ru</div>
     </a>
-    <label for="phone" class="form__label">Укажите свой номер телефона:</label>
-    <input type="tel" name="phone" class="form__field" />
-    <input type="submit" value="Отправить" class="form__submit" />
+    <div  class="form__label">Укажите свой номер телефона:</div>
+    <input type="tel" name="phone" class="form__field" >
+    <input type="submit" value="Отправить" class="form__submit" >
   </form>
 
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
